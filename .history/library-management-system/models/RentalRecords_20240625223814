@@ -1,0 +1,6 @@
+const mongoose =  require('mongoose')
+
+const rentalRecordSchema  = new mongoose.model({
+    user : {type : mongoose.Schema.Types.ObjectId, ref : 'User', required : true},
+    
+}) 

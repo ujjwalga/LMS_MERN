@@ -1,0 +1,7 @@
+const User = require('../models/User')
+const jwt = require('jsonwebtoken')
+const bcrypt = require('bcryptjs')
+
+exports.register = async (req, req) => {
+    
+}
